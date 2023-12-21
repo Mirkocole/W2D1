@@ -1,0 +1,31 @@
+html, body{
+    background-color: rgb(39, 38, 38);
+}
+
+#container-artist{
+    height: 500px;
+    max-height: 700px;
+    width: 100%;
+    background-image: url(assets/slide-stevie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 575px) {
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .card-title{
+        font-size: 16px;
+    }
+
+    .card-subtitle{
+        font-size: 14px;
+    }
+
+    .card-text{
+        font-size: 12px;
+    }
+}
